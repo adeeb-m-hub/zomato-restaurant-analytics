@@ -18,8 +18,7 @@ zomato-restaurant-assistant/
 │   ├── data_preprocessing.py   # Shared cleaning + preprocessing pipeline
 │   ├── recommender.py          # Restaurant recommender (TF-IDF + cosine similarity)
 │   ├── sentiment_analysis.py   # VADER-based review sentiment analysis
-│   ├── chatbot.py               # Retrieval-based Q&A chatbot
-│   └── app.py                   # Streamlit UI tying all four together
+│   └── chatbot.py               # Retrieval-based Q&A chatbot
 ├── notebooks/
 │   └── full_pipeline.ipynb     # Original end-to-end notebook (EDA + all 3 features)
 ├── requirements.txt
@@ -38,24 +37,11 @@ zomato-restaurant-assistant/
    ```bash
    pip install -r requirements.txt
    ```
-
-   That's it — the dataset is public, so `kagglehub` downloads it automatically the first time you run any module, no Kaggle account or API key needed.
+   That's it — the dataset is public, so kagglehub downloads it automatically the first time you run any module, no Kaggle account or API key needed.
 
 ## Usage
 
-### Interactive UI (recommended)
-
-Launch the Streamlit app to test all four features in one place — data preprocessing overview, recommender, sentiment analysis, and chatbot — each in its own tab:
-
-```bash
-streamlit run src/app.py
-```
-
-This opens in your browser. Click **Load dataset** once (runs the cleaning pipeline and caches it), then explore each tab.
-
-### CLI demos
-
-Each module can also be run standalone as a CLI demo:
+Each module can be run standalone as a CLI demo:
 
 ```bash
 cd src
