@@ -75,8 +75,8 @@ def strip_mojibake(text):
 def load_raw_dataset():
     """Load the raw Zomato Bangalore Restaurants dataset via kagglehub.
 
-    Requires a Kaggle account + API token configured locally
-    (see README for setup instructions).
+    This is a public dataset, so kagglehub can download it without any
+    API key or login — works the same locally and on Streamlit Cloud.
     """
     import kagglehub
     from kagglehub import KaggleDatasetAdapter
