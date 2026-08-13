@@ -1,6 +1,6 @@
 # Zomato Restaurant Assistant 🍽️
 
-A data science pipeline and mini AI-powered assistant built on the [Zomato Bangalore Restaurants dataset](https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants). Covers the full journey from messy raw data to three working ML-powered features.
+A data science pipeline and retrieval assistant built on the [Zomato Bangalore Restaurants dataset](https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants). Covers the full journey from messy raw data to three working ML-powered features.
 
 ## Features
 
