@@ -6,3 +6,4 @@ nltk
 matplotlib
 seaborn
 kagglehub
+streamlit
